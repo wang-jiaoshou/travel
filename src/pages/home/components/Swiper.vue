@@ -14,15 +14,15 @@ export default {
   data () {
     return {
       swiperOption: {
-        pagination: 'swiper-pagination',
+        pagination: '.swiper-pagination',
         loop: true
       },
       swiperList: [{
-        id:'001',
-        imgUrl:'./700e0n000000egwuwE5D3_1536_307_25.jpg'
-      },{
-        id:'002',
-        imgUrl:'././700k0r000000gzz223169_1536_307_25.jpg'
+        id: '001',
+        imgUrl: './q1.jpg'
+      }, {
+        id: '002',
+        imgUrl: './q2.jpg'
       }]
     }
   }
@@ -37,7 +37,6 @@ export default {
     width: 100%
     height: 0
     padding-bottom: 31.25%
-    // width: 100% height: 31.25vm 抖动
     background: #eee
     .swiper-img
       width: 100%
