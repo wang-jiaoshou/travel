@@ -7,7 +7,7 @@ const path = require('path')
 module.exports = {
   dev: {
 
-    // Paths
+    // Paths fiddler charles 抓包代理工具
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
